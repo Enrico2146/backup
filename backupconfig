@@ -93,7 +93,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Max Tries"]  = 10,
     },
     ["Eggs"] = {
-        ["Auto Open"] = true,
+        ["Auto Open"] = false,
         ["Open"]      = {
              "Common Egg", "Uncommon Egg",
         },
