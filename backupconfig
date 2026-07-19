@@ -58,7 +58,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Send Every"] = 0,
         ["Send"]       = {
             "Moon Bloom", "Sun Bloom", "Star Fruit", "Hypno Bloom", "Dragon's Breath", { Item = "Rainbow", Count = 20 }, { Item = "Mega", Count = 20 }, { Item = "Gold", Count = 200 },
-            "GoldenDragonfly", "Unicorn", "Raccoon", "Frog", "Bunny", "Owl", "Deer", "Turtle", "Robin", "Bee", "Butterfly", "Monkey", "Bear", "Bald Eagle", "Firefly",
+            "GoldenDragonfly", "Unicorn", "Raccoon", "Firefly",
             { Item = "Super Sprinkler", Count = 20 }, { Item = "Legendary Sprinkler", Count = 200 }, { Item = "Super Watering Can", Count = 20 },
         },
     },
