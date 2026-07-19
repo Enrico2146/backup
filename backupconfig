@@ -15,11 +15,11 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Layout"]      = "compact",
         ["Don't Plant"] = {},
         ["Don't Buy"]   = {},
-        ["Keep Seeds"]  = { "Rainbow", "Gold", "Mega", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Sun Bloom", "Star Fruit" },
+        ["Keep Seeds"]  = { "Rainbow", "Gold", "Mega", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Sun Bloom", "Star Fruit", "Acorn", "Bamboo" },
         ["Plant Limit"] = 50,
         ["Never Shovel"] = { "Dragon's Breath", "Moon Bloom", "Hypno Bloom" },
         ["Shovel Up To"] = "Epic",
-        ["Buy Seeds"]    = { ["Dragon's Breath"] = 20, ["Moon Bloom"] = 20, ["Hypno Bloom"] = 20, ["Sun Bloom"] = 20, ["Star Fruit"] = 20, }
+        ["Buy Seeds"]    = { ["Dragon's Breath"] = 20, ["Moon Bloom"] = 20, ["Hypno Bloom"] = 20, ["Sun Bloom"] = 20, ["Star Fruit"] = 20, "Acorn" = 20, "Bamboo" = 200, }
     },
     ["Money"] = {
         ["Keep Cash"]          = 15000,
@@ -57,7 +57,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Send To"]    = "encori21",
         ["Send Every"] = 0,
         ["Send"]       = {
-            "Moon Bloom", "Sun Bloom", "Star Fruit", "Hypno Bloom", "Dragon's Breath", { Item = "Rainbow", Count = 20 }, { Item = "Mega", Count = 20 }, { Item = "Gold", Count = 200 },
+            "Moon Bloom", "Sun Bloom", "Star Fruit", "Hypno Bloom", "Dragon's Breath", { Item = "Rainbow", Count = 20 }, { Item = "Mega", Count = 20 }, { Item = "Gold", Count = 200 }, { Item = "Acorn", Count = 20 }, { Item = "Bamboo", Count = 500 },
             "GoldenDragonfly", "Unicorn", "Raccoon", "Firefly",
             { Item = "Super Sprinkler", Count = 20 }, { Item = "Legendary Sprinkler", Count = 200 }, { Item = "Super Watering Can", Count = 20 },
         },
