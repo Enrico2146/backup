@@ -19,6 +19,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Plant Limit"] = 50,
         ["Never Shovel"] = { "Dragon's Breath", "Moon Bloom", "Hypno Bloom" },
         ["Shovel Up To"] = "Epic",
+        ["Shovel Mutated"] = true,
         ["Buy Seeds"]    = { ["Dragon's Breath"] = 20, ["Moon Bloom"] = 20, ["Hypno Bloom"] = 20, ["Sun Bloom"] = 20, ["Star Fruit"] = 20, ["Acorn"] = 20, ["Bamboo"] = 200, }
     },
     ["Money"] = {
